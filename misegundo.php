@@ -2,6 +2,12 @@
 <br>
 <?php
 $i=1;
-foreach(range(1,10)as $i)
-($i==10)?print $i.".":print $i.","
+for($i;$i<=1000;$i++){
+    if($i%10==0){
+        echo "$i.<br>";
+    }
+    else{
+        echo "$i, ";
+    }
+}
 ?>
